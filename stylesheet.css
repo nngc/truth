@@ -1,5 +1,3 @@
-
-
 /* 
 html5doctor.com Reset Stylesheet
 v1.6.1
@@ -199,3 +197,85 @@ h4 {
 }
 
 
+
+
+
+
+
+
+.header-mugi {
+  color: #db8a90;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header-mugi-k {
+  color: #648cc0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header-mugi-m {
+  color: #f0ecb7;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+.header-text {
+  color: #db8a90;
+}
+
+.header-text-k {
+  color: #648cc0;
+}
+
+.header-text-m {
+  color: #f0ecb7;
+}
+
+
+
+.bgi-mugi {
+  background-image: url(bgi_mugi.JPG);
+  background-repeat: repeat-x;
+  background-size: contain;
+}
+
+.bgi-kome {
+  background-image: url(bgi_kome.jpg);
+  background-repeat: repeat-x;
+  background-size: contain;
+}
+
+.bgi-mame {
+  background-image: url(bgi_mame.JPG);
+  background-repeat: repeat-x;
+  background-size: contain;
+}
+
+
+
+main {
+  background-color:rgb(250, 244, 220);
+}
+
+.conts {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  padding: 15px;
+
+}
+
+.conts img {
+  width: 300px;
+  height: 300px;
+  margin: 3px;
+  border-radius: 13px;
+
+}
+
+
+
+footer {
+  background-color: #807e67;
+}
